@@ -69,7 +69,7 @@ build/
 nbbuild/
 dist/
 nbdist/
-nbactions.xml
+nbactions.x
 nb-configuration.xml
 
 ##############################
