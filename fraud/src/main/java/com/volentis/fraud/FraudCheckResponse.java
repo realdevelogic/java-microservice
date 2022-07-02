@@ -1,2 +1,4 @@
-package com.volentis.fraud;public record FraudCHeckResponse() {
+package com.volentis.fraud;
+
+public record FraudCheckResponse(Boolean isFraudster) {
 }
