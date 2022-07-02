@@ -14,7 +14,7 @@ public record CustomerService(CustomerRepository customerRepository) {
 
         // todo: check if email valid
         // todo: check if email not taken
-        customerRepository.save(customer);
+        customerRepository.saveAndFlush(customer);
 
     }
 }
