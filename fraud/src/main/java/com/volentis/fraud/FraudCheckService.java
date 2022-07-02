@@ -14,6 +14,7 @@ public class FraudCheckService {
         fraudCheckHistoryRepository.save(
                 FraudCheckHistory.builder()
                         .isFraudster(false)
+                        .customerId(customerId)
                         .createdAt(LocalDateTime.now())
                         .build()
         );
